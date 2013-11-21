@@ -16,6 +16,7 @@ class RomanNumber
 
     preceding_sign = true
 
+    // optimisation: go from left to right, add values as long as the following character is >= value, otherwise subtract value
 
     @@roman_order_value.each_pair { |key, value|
       return if !input_value
