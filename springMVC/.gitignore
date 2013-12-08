@@ -6,5 +6,7 @@
 *.war
 *.ear
 
-# no out
+# no out or gradle build information
+build/
+.gradle/
 out/
