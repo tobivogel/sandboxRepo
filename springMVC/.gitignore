@@ -1,0 +1,10 @@
+# no classes
+*.class
+
+# no packages
+*.jar
+*.war
+*.ear
+
+# no out
+out/
